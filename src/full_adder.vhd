@@ -14,6 +14,17 @@ entity full_adder is
 end full_adder;
 
 architecture Behavioral of full_adder is
+
+    component full_adder is
+        port (
+            A     : in std_logic;
+            B     : in std_logic;
+            Cin   : in std_logic;
+            S     : out std_logic;
+            Cout  : out std_logic
+            );
+        end component full_adder;
+        
 begin
 
         S <= A XOR B XOR Cin;
