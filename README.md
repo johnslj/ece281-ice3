@@ -27,7 +27,7 @@ Assert statements of other severity levels will be reported, but not fail the wo
 
 ![I chose to use 7 test cases. This included the original all zeros and all ones test cases, along with the suggested all zero with the carry-in, along with a standard no carry-in or -out case (67 case), a case which would strattle the line of needing the carry-out (69 no carry-in and 69 carry-in case), and finally a case which would use the carry out (the cd case).](waveform.png)
 
-![This is my entity diagram:](entity_diagram.png)
+![This is my entity diagram:](entity_diagram.jpg)
 
 ## Documentation
 My ChatGPT transcript is: https://chatgpt.com/share/698c1743-736c-8001-ba32-2dc1bd00a0a5
